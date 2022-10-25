@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(255, 255, 252);
+}
+p{
+    color:black;
+    font-family: Helvetica, sans-serif;
+}
+.shadow {
+    text-shadow: 2px 2px #000000;
+}
+@media(min-width:468px){
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+}
+.container-1 div{
+    border: 1px solid black; 
+    padding: 10px; 
+   
+}
+
+.column-1{
+flex:1;
+}
+.column-2{
+flex:1;
+}
+.column-3{
+flex:1;
+}
